@@ -232,4 +232,4 @@ fi
 GO_CMD_LINE_ARGS="$@"
 export GO_CMD_LINE_ARGS
 
-exec "/go/bin/go" "$@"
+exec "go" "$@"
